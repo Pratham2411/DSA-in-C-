@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout << " Enter size of Array  :";
+    cin>> n;
+    int arr[n];
+    // input
+
+ cout<< " Enter Elements :" ;  
+ for(int i=0; i<=n-1;i++){
+    cin>>arr[i];
+}
+int a = 0;
+for(int i=0; i<=n-1;i++){
+    
+    a = a+ arr[i];
+}
+cout <<" Sum of elements is : "<< a;
+
+}
